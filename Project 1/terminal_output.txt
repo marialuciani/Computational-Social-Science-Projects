@@ -1,0 +1,20 @@
+Last login: Thu Sep 19 13:51:47 on ttys000
+(base) marialuciani@Marias-MacBook-Air ~ % cd git
+(base) marialuciani@Marias-MacBook-Air git % git clone https://github.com/marialuciani/Computational-Social-Science-Projects.git
+Cloning into 'Computational-Social-Science-Projects'...
+remote: Enumerating objects: 6, done.
+remote: Counting objects: 100% (6/6), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 6 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (6/6), 1.79 KiB | 228.00 KiB/s, done.
+(base) marialuciani@Marias-MacBook-Air git % cd Computational-Social-Science-Projects
+(base) marialuciani@Marias-MacBook-Air Computational-Social-Science-Projects % mkdir "Project 1"
+(base) marialuciani@Marias-MacBook-Air Computational-Social-Science-Projects % cd Project\ 1 
+(base) marialuciani@Marias-MacBook-Air Project 1 % touch terminal_output.txt
+(base) marialuciani@Marias-MacBook-Air Project 1 % nano terminal_output.txt 
+
+## FUTURE GIT COMMANDS:
+
+git add .
+git commit -m "created Project 1 folder with document terminal_output.txt to store all terminal commands used."
+git push
